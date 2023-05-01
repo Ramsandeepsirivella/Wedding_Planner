@@ -1,0 +1,8 @@
+node_modules
+
+
+#.parcel-cache it is used to minizing the time for rebuild the projects 
+.parcel-cache
+
+#dist folder which is used by dev dependency(parcel) to store the compiled code of the project  
+dist

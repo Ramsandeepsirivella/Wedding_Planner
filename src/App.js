@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
-
+import { Header } from "./components/Header";
 /**
  * Header
  *  Logo
@@ -23,7 +23,23 @@ import ReactDOM from "react-dom/client"
  *  Logo 
  *  Social Media links 
  *  etc..
+ * 
  *      
  * 
  * 
  */
+
+const AppLayout=()=>
+{
+
+    return (
+        <>
+        <Header/>
+        
+        </>
+
+    );
+}
+
+const root=ReactDOM.createRoot(document.getElementById("root"))
+root.render(<AppLayout/>)
